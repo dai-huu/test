@@ -27,10 +27,8 @@ images:
     newTag: latest
 secretGenerator:
   - name: jwt-secret
-    namespace: ticketing-dev
     literals:
       - JWT_KEY=your_jwt_key
   - name: stripe-secret
-    namespace: ticketing-dev
     literals:
       - STRIPE_KEY=sk_test_xxx
