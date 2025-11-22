@@ -11,10 +11,10 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -29,10 +29,10 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -47,10 +47,10 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -65,10 +65,10 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -83,10 +83,10 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -101,7 +101,7 @@ spec:
           resources:
             requests:
               cpu: "50m"
-              memory: "64Mi"
+              memory: "128Mi"
             limits:
               cpu: "250m"
-              memory: "128Mi"
+              memory: "256Mi"
