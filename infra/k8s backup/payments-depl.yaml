@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: daihuu/payments:latest
-          imagePullPolicy: Always
+          image: stephengrider/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

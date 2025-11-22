@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: daihuu/expiration:latest
-          imagePullPolicy: Always
+          image: stephengrider/expiration
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
