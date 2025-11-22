@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/dai-huu/test.git' # Replace with your Git repository URL
     targetRevision: main
-    path: infra
+    path: test/infra
   destination:
     server: 'https://D9BA1369763C234F74DA3968D99911E1.gr7.ap-northeast-1.eks.amazonaws.com'
     namespace: ticketing-dev
