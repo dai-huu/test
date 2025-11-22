@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ticketing-app-dev
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/dai-huu/test.git
+    targetRevision: main
+    path: deploy/overlays/dev
+  destination:
+    server: https://D9BA1369763C234F74DA3968D99911E1.gr7.ap-northeast-1.eks.amazonaws.com
+    namespace: ticketing-dev
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
