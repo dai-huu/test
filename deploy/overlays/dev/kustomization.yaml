@@ -4,12 +4,7 @@ namePrefix: ticketing-dev-
 namespace: ticketing-dev
 resources:
   - ../../base
-  - ../../infra/k8s/auth-mongo-depl.yaml
-  - ../../infra/k8s/orders-mongo-depl.yaml
-  - ../../infra/k8s/payments-mongo-depl.yaml
-  - ../../infra/k8s/tickets-mongo-depl.yaml
-  - ../../infra/k8s/expiration-redis-depl.yaml
-  - ../../infra/k8s/nats-depl.yaml
+  - ../../infra/k8s
 patches:
   - path: patch-deploy.yaml
 images:
