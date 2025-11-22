@@ -4,7 +4,6 @@ namePrefix: ticketing-dev-
 namespace: ticketing-dev
 resources:
   - ../../base
-  - ../../infra/k8s
 patches:
   - path: patch-deploy.yaml
 images:
